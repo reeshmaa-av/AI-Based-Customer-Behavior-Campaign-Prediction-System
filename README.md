@@ -38,41 +38,41 @@ Dataset Characteristics
 Project Objectives
 Store Performance Analysis
 
-# Evaluate store performance using:
+Evaluate store performance using:
 
 Average Spend per Household
 Trip Frequency
 Category Breadth
 Customer Loyalty Analysis
 
-# Identify drivers of long-term customer engagement through:
+Identify drivers of long-term customer engagement through:
 
 Purchase Frequency
 Weeks Active
 Department-Level Activity
 Campaign Impact Analysis
 
-# Measure changes in:
+Measure changes in:
 
 Customer Spending
 Shopping Trips
 Coupon Redemptions
 Customer Segmentation
 
-# Analyze customer behavior across:
+Analyze customer behavior across:
 
 Income Groups
 Age Categories
 Household Sizes
 Brand Preferences
 
-# Discount Dependency Analysis
+Discount Dependency Analysis
 
 Determine how heavily customers rely on discounts and promotions.
 
-# Data Preparation
+Data Preparation
 
-# Key preprocessing steps included:
+Key preprocessing steps included:
 
 Missing Value Treatment
 Data Standardization
@@ -86,10 +86,10 @@ Analytical Base Table (ABT) Creation
 # Machine Learning Models
 # 1. Uplift Modeling
 
-# Purpose:
+Purpose:
 Identify customers whose behavior is directly influenced by marketing campaigns.
 
-# Technique:
+Technique:
 
 Random Forest Classifiers
 Treatment vs Control Analysis
@@ -98,40 +98,40 @@ AUUC Analysis
 
 # 2. Product Recommendation System
 
-# Purpose:
+Purpose:
 Recommend products based on purchasing patterns.
 
-# Technique:
+Technique:
 
 Cosine Similarity
 Product-to-Store Revenue Matrix
 
 # 3. Coupon Recommendation Model
 
-# Purpose:
+Purpose:
 Personalize discount allocation for customers.
 
-# Technique:
+Technique:
 
 XGBoost Classifier
 Behavioral Feature Engineering
 
 # 4. Campaign Effectiveness Model
 
-# Purpose:
+Purpose:
 Measure customer spending changes before and after campaigns.
 
-# Technique:
+Technique:
 
 Customer-Level Spending Analysis
 Predictive Classification
 
 # 5. Customer Engagement Predictor
 
-# Purpose:
+Purpose:
 Predict long-term customer engagement.
 
-# Technique:
+Technique:
 
 Random Forest Classifier
 GridSearchCV Hyperparameter Tuning
