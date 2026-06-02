@@ -83,6 +83,10 @@ One-Hot Encoding
 Feature Scaling
 Analytical Base Table (ABT) Creation
 
+Dataset omitted due to size limitations.
+Original dataset available from the source:
+https://www.dunnhumby.com/sourcefiles/
+
 # Machine Learning Models
 # 1. Uplift Modeling
 
