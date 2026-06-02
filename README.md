@@ -1,11 +1,11 @@
 # AI-Based-Customer-Behavior-Campaign-Prediction-System
-Overview
+# Overview
 
-This capstone project analyzes customer purchasing behavior and evaluates the effectiveness of retail marketing campaigns using transactional, demographic, coupon, and promotional data from the Dunnhumby "The Complete Journey" dataset.
+This project analyzes customer purchasing behavior and evaluates the effectiveness of retail marketing campaigns using transactional, demographic, coupon, and promotional data from the Dunnhumby "The Complete Journey" dataset.
 
 The objective is to determine whether promotional campaigns drive long-term customer loyalty or simply create short-term increases in sales. Using machine learning, uplift modeling, recommendation systems, and customer engagement analysis, the project provides data-driven insights to improve marketing ROI and customer targeting strategies.
 
-Business Problem
+# Business Problem
 
 Retailers invest significant resources in promotional campaigns, discounts, and coupons. However, many organizations struggle to determine:
 
@@ -16,7 +16,7 @@ Which customer segments generate the highest return on investment
 
 This project addresses these challenges through predictive analytics and customer behavior modeling.
 
-Dataset
+# Dataset
 
 Source: Dunnhumby - The Complete Journey Dataset
 
@@ -36,42 +36,43 @@ Dataset Characteristics
 30 Marketing Campaigns
 2 Years of Retail Purchase History
 Project Objectives
-1. Store Performance Analysis
+Store Performance Analysis
 
-Evaluate store performance using:
+# Evaluate store performance using:
 
 Average Spend per Household
 Trip Frequency
 Category Breadth
-2. Customer Loyalty Analysis
+Customer Loyalty Analysis
 
-Identify drivers of long-term customer engagement through:
+# Identify drivers of long-term customer engagement through:
 
 Purchase Frequency
 Weeks Active
 Department-Level Activity
-3. Campaign Impact Analysis
+Campaign Impact Analysis
 
-Measure changes in:
+# Measure changes in:
 
 Customer Spending
 Shopping Trips
 Coupon Redemptions
-4. Customer Segmentation
+Customer Segmentation
 
-Analyze customer behavior across:
+# Analyze customer behavior across:
 
 Income Groups
 Age Categories
 Household Sizes
 Brand Preferences
-5. Discount Dependency Analysis
+
+# Discount Dependency Analysis
 
 Determine how heavily customers rely on discounts and promotions.
 
-Data Preparation
+# Data Preparation
 
-Key preprocessing steps included:
+# Key preprocessing steps included:
 
 Missing Value Treatment
 Data Standardization
@@ -81,56 +82,62 @@ Feature Engineering
 One-Hot Encoding
 Feature Scaling
 Analytical Base Table (ABT) Creation
-Machine Learning Models
-1. Uplift Modeling
 
-Purpose:
+# Machine Learning Models
+# 1. Uplift Modeling
+
+# Purpose:
 Identify customers whose behavior is directly influenced by marketing campaigns.
 
-Technique:
+# Technique:
 
 Random Forest Classifiers
 Treatment vs Control Analysis
 Qini Curve Evaluation
 AUUC Analysis
-2. Product Recommendation System
 
-Purpose:
+# 2. Product Recommendation System
+
+# Purpose:
 Recommend products based on purchasing patterns.
 
-Technique:
+# Technique:
 
 Cosine Similarity
 Product-to-Store Revenue Matrix
-3. Coupon Recommendation Model
 
-Purpose:
+# 3. Coupon Recommendation Model
+
+# Purpose:
 Personalize discount allocation for customers.
 
-Technique:
+# Technique:
 
 XGBoost Classifier
 Behavioral Feature Engineering
-4. Campaign Effectiveness Model
 
-Purpose:
+# 4. Campaign Effectiveness Model
+
+# Purpose:
 Measure customer spending changes before and after campaigns.
 
-Technique:
+# Technique:
 
 Customer-Level Spending Analysis
 Predictive Classification
-5. Customer Engagement Predictor
 
-Purpose:
+# 5. Customer Engagement Predictor
+
+# Purpose:
 Predict long-term customer engagement.
 
-Technique:
+# Technique:
 
 Random Forest Classifier
 GridSearchCV Hyperparameter Tuning
-Results
-Uplift Model
+
+# Results
+# Uplift Model
 Validation AUUC: 6.56
 Test AUUC: 6.09
 Validation Qini: 33.47
@@ -139,7 +146,7 @@ Test Qini: 22.69
 Key Finding:
 Only a small segment of customers were truly influenced by campaigns.
 
-Coupon Recommendation Model
+# Coupon Recommendation Model
 Test Accuracy: 62.8%
 Test AUC: 0.686
 Test F1 Score: 0.571
@@ -147,7 +154,7 @@ Test F1 Score: 0.571
 Key Finding:
 Personalized discounts outperform blanket promotions.
 
-Campaign Effectiveness
+# Campaign Effectiveness
 Average Spending Increase: +2.6%
 55.1% Customers Increased Spending
 Test AUC: 0.664
@@ -155,7 +162,7 @@ Test AUC: 0.664
 Key Finding:
 Campaign impact varies significantly across customer groups.
 
-Customer Engagement Predictor
+# Customer Engagement Predictor
 Test Accuracy: 72%
 Test Recall: 90%
 Test AUC: 0.86
@@ -163,7 +170,7 @@ Test AUC: 0.86
 Key Finding:
 Purchase frequency and recency are stronger indicators of loyalty than discount usage.
 
-Key Business Insights
+# Key Business Insights
 Approximately 75% of targeted customers are "Sure Buyers" who would purchase regardless of promotions.
 Deep discounts do not necessarily create long-term loyalty.
 Customer engagement is driven primarily by purchase frequency and shopping recency.
@@ -186,6 +193,7 @@ Random Forest
 Uplift Modeling
 Recommendation Systems
 Classification Models
-Development Environment
+
+# Development Environment
 Google Colab
 Jupyter Notebook
